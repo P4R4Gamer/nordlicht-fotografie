@@ -4,6 +4,8 @@ Responsive One-Page-Website für ein fiktives Fotografie-Studio. Umgesetzt mit
 reinem HTML, CSS und Vanilla JavaScript — bewusst ohne Framework oder Build-Step,
 um zu zeigen, dass es sauberes, wartbares Frontend auch ohne Tooling-Overhead gibt.
 
+**[Live-Demo](https://p4r4gamer.github.io/nordlicht-fotografie/)**
+
 ## Features
 
 - Sticky Header mit Scroll-Verhalten (transparent → solide beim Scrollen)
