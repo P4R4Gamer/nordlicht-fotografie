@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nordlicht Fotografie — Hochzeits- & Porträtfotografie</title>
+  <meta name="description" content="Nordlicht Fotografie: authentische Hochzeits-, Porträt- und Eventfotografie in Hamburg und Umgebung.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo">Nordlicht<span>.</span></a>
+
+      <nav class="nav" id="nav">
+        <a href="#portfolio">Portfolio</a>
+        <a href="#leistungen">Leistungen</a>
+        <a href="#ueber-mich">Über mich</a>
+        <a href="#stimmen">Stimmen</a>
+        <a href="#kontakt" class="nav__cta">Kontakt</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Menü öffnen" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <div class="hero__bg" style="background-image: url('https://picsum.photos/seed/nordlicht-hero/1600/1000')"></div>
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <p class="eyebrow">Hochzeit · Porträt · Event</p>
+        <h1>Momente, die man nicht<br>nachstellen kann.</h1>
+        <p class="hero__text">Ich bin Mira Lund, Fotografin aus Hamburg. Ich halte Geschichten fest,
+          keine Posen — echt, ruhig, ohne Regieanweisung.</p>
+        <div class="hero__actions">
+          <a href="#portfolio" class="btn btn--primary">Portfolio ansehen</a>
+          <a href="#kontakt" class="btn btn--ghost">Termin anfragen</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <p class="section-eyebrow">Ausgewählte Arbeiten</p>
+        <h2>Portfolio</h2>
+
+        <div class="filter" id="filter">
+          <button class="filter__btn is-active" data-filter="all">Alle</button>
+          <button class="filter__btn" data-filter="hochzeit">Hochzeit</button>
+          <button class="filter__btn" data-filter="portrait">Porträt</button>
+          <button class="filter__btn" data-filter="event">Event</button>
+        </div>
+
+        <div class="gallery" id="gallery">
+          <button class="gallery__item" data-cat="hochzeit" data-full="https://picsum.photos/seed/nl-01/1400/1000">
+            <img src="https://picsum.photos/seed/nl-01/600/450" alt="Brautpaar hält Hände im Gegenlicht" loading="lazy">
+            <span>Hochzeit — Anna & Jost</span>
+          </button>
+          <button class="gallery__item" data-cat="portrait" data-full="https://picsum.photos/seed/nl-02/1400/1000">
+            <img src="https://picsum.photos/seed/nl-02/600/450" alt="Porträt bei natürlichem Licht" loading="lazy">
+            <span>Porträt — Studio</span>
+          </button>
+          <button class="gallery__item" data-cat="event" data-full="https://picsum.photos/seed/nl-03/1400/1000">
+            <img src="https://picsum.photos/seed/nl-03/600/450" alt="Gäste feiern auf einer Firmenfeier" loading="lazy">
+            <span>Event — Firmenjubiläum</span>
+          </button>
+          <button class="gallery__item" data-cat="hochzeit" data-full="https://picsum.photos/seed/nl-04/1400/1000">
+            <img src="https://picsum.photos/seed/nl-04/600/450" alt="Tanz des Brautpaars" loading="lazy">
+            <span>Hochzeit — Sina & Lukas</span>
+          </button>
+          <button class="gallery__item" data-cat="portrait" data-full="https://picsum.photos/seed/nl-05/1400/1000">
+            <img src="https://picsum.photos/seed/nl-05/600/450" alt="Outdoor Porträtserie" loading="lazy">
+            <span>Porträt — Outdoor</span>
+          </button>
+          <button class="gallery__item" data-cat="event" data-full="https://picsum.photos/seed/nl-06/1400/1000">
+            <img src="https://picsum.photos/seed/nl-06/600/450" alt="Konzertfotografie in kleinem Club" loading="lazy">
+            <span>Event — Live-Konzert</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="leistungen" id="leistungen">
+      <div class="container">
+        <p class="section-eyebrow">Was ich anbiete</p>
+        <h2>Leistungen</h2>
+
+        <div class="cards">
+          <article class="card">
+            <span class="card__num">01</span>
+            <h3>Hochzeit</h3>
+            <p>Von den Vorbereitungen bis zur letzten Tanzfläche — ganztägige Begleitung, zurückhaltend und ohne gestellte Szenen.</p>
+            <p class="card__price">ab 1.450 €</p>
+          </article>
+          <article class="card">
+            <span class="card__num">02</span>
+            <h3>Porträt</h3>
+            <p>Einzel-, Paar- oder Familienshootings im Studio oder draußen. Inklusive Vorgespräch und Bildauswahl.</p>
+            <p class="card__price">ab 220 €</p>
+          </article>
+          <article class="card">
+            <span class="card__num">03</span>
+            <h3>Event</h3>
+            <p>Firmenfeiern, Jubiläen, kleine Konzerte. Diskrete Begleitung, schnelle Lieferung der ersten Auswahl.</p>
+            <p class="card__price">ab 480 €</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="ueber-mich">
+      <div class="container about__inner">
+        <div class="about__img">
+          <img src="https://picsum.photos/seed/nordlicht-portrait/700/850" alt="Mira Lund mit Kamera" loading="lazy">
+        </div>
+        <div class="about__text">
+          <p class="section-eyebrow">Über mich</p>
+          <h2>Mira Lund</h2>
+          <p>Ich fotografiere seit 2015 hauptberuflich, die meiste Zeit davon in und um Hamburg. Angefangen hat
+            alles mit einer geliehenen Kamera auf der Hochzeit einer Freundin — seitdem lässt mich das Licht
+            nicht mehr los.</p>
+          <p>Mir ist wichtiger, dass ein Bild in zehn Jahren noch etwas auslöst, als dass es perfekt ausgeleuchtet
+            ist. Deshalb arbeite ich dokumentarisch: beobachten, warten, auslösen.</p>
+          <ul class="about__facts">
+            <li><strong>9</strong> Jahre Erfahrung</li>
+            <li><strong>140+</strong> Hochzeiten begleitet</li>
+            <li><strong>Hamburg</strong> & bundesweit</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="stimmen">
+      <div class="container">
+        <p class="section-eyebrow">Was Paare sagen</p>
+        <h2>Stimmen</h2>
+
+        <div class="quotes">
+          <blockquote class="quote">
+            <p>„Mira war den ganzen Tag praktisch unsichtbar und trotzdem hat sie genau die Momente
+              eingefangen, an die wir uns am meisten erinnern werden.“</p>
+            <cite>— Anna & Jost, Hochzeit Juni 2025</cite>
+          </blockquote>
+          <blockquote class="quote">
+            <p>„Kein Rumgeposiere, keine Anspannung vor der Kamera. Die Bilder sehen aus wie wir — nur mit
+              besserem Licht.“</p>
+            <cite>— Familie Brandt, Porträtshooting</cite>
+          </blockquote>
+          <blockquote class="quote">
+            <p>„Innerhalb von zwei Tagen hatten wir die ersten zwanzig Bilder. Für unser Event genau das,
+              was wir gebraucht haben.“</p>
+            <cite>— TeamPuls GmbH, Firmenjubiläum</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="kontakt">
+      <div class="container contact__inner">
+        <div>
+          <p class="section-eyebrow">Kontakt</p>
+          <h2>Lass uns reden.</h2>
+          <p class="contact__text">Erzähl mir kurz, was ansteht — Datum, Ort, ungefähre Vorstellung.
+            Ich melde mich in der Regel innerhalb von zwei Tagen zurück.</p>
+          <div class="contact__details">
+            <p><strong>Mail</strong><br>hallo@nordlicht-fotografie.de</p>
+            <p><strong>Telefon</strong><br>040 — 55 12 88 40</p>
+            <p><strong>Studio</strong><br>Isestraße 12, 20144 Hamburg</p>
+          </div>
+        </div>
+
+        <form class="form" id="contact-form" novalidate>
+          <div class="form__row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form__row">
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form__row">
+            <label for="anlass">Anlass</label>
+            <select id="anlass" name="anlass">
+              <option value="hochzeit">Hochzeit</option>
+              <option value="portrait">Porträt</option>
+              <option value="event">Event</option>
+              <option value="sonstiges">Sonstiges</option>
+            </select>
+          </div>
+          <div class="form__row">
+            <label for="nachricht">Nachricht</label>
+            <textarea id="nachricht" name="nachricht" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--block">Anfrage senden</button>
+          <p class="form__status" id="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#top" class="logo">Nordlicht<span>.</span></a>
+      <p>&copy; <span id="year"></span> Nordlicht Fotografie · Mira Lund</p>
+      <div class="footer__social">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Pinterest">Pinterest</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox__close" id="lightbox-close" aria-label="Schließen">&times;</button>
+    <img src="" alt="" id="lightbox-img">
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
